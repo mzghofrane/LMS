@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<odoo>
+<!-- Menu > Action > View -->
+
+<!-- Action -->
+<record id="member_model_action" model="ir.actions.act_window">
+    <field name="name">Members</field>
+    <field name="res_model">member</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<!-- List tree -->
+<record id="member_view_tree" model="ir.ui.view">
+    <field name="name">member.tree</field>
+    <field name="model">member</field>
+    <field name="arch" type="xml">
+        <tree string="Members">
+            <field name="name"/>
+            <field name="phone_number"/>
+            <field name="email"/>
+            <field name="registered_on"/>
+            <field name="library"/>
+        </tree>
+    </field>
+</record>
+
+<!-- form -->
+<record id="member_view_form" model="ir.ui.view">
+    <field name="name">member.form</field>
+    <field name="model">member</field>
+    <field name="arch" type="xml">
+        <form string="New Member">
+            <sheet>
+                <group>
+                    <group>
+                        <separator string="Bio Information"/>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <separator string="Contact Details"/>
+                        <field name="phone_number"/>
+                        <field name="email"/>
+                    </group>
+                    <group>
+                        <separator string="Activity Information"/>
+                        <field name="active"/>
+                        <field name="removed_on"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Issued Book Items">
+                        <field name="issued_book_items">
+                            <tree string="Items">
+                                <field name="book_item">
+                                    <tree string="Issued Book Items">
+                                        <field name="barcode"/>
+                                        <field name="status"/>
+                                    </tree>
+                                </field>
+                                <field name="due_date"/>
+                            </tree> 
+                        </field>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>
+    </field>
+</record>
+</odoo>

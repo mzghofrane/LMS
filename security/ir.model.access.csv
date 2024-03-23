@@ -1,0 +1,13 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_author_model,access_author_model,model_author,base.group_user,1,1,1,1
+access_book_model,access_book_model,model_book,base.group_user,1,1,1,1
+access_book_item_model,access_book_item_model,model_book_item,base.group_user,1,1,1,1
+access_issued_book_item_model,access_issued_book_item_model,model_issued_book_item,base.group_user,1,1,1,1
+access_book_item_reservation_model,access_book_item_reservation_model,model_book_item_reservation,base.group_user,1,1,1,1
+access_fine_model,access_fine_model,model_fine,base.group_user,1,1,1,1
+
+access_library_model,access_library_model,model_library,base.group_system,1,1,1,1
+access_borrowing_settings_model,access_borrowing_settings_model,model_borrowing_settings,base.group_system,1,1,1,1
+access_fine_settings_model,access_fine_settings_model,model_fine_settings,base.group_system,1,1,1,1
+
+access_member_model,access_member_model,model_member,base.group_user,1,1,1,1

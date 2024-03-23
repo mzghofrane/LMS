@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="menu_root" name="Smart Library">
+        <menuitem id="library_menu" name="Libraries">
+            <menuitem id="library_menu_action" action="library_model_action"/>
+        </menuitem>
+
+        <menuitem id="book_menu" name="Books">
+            <menuitem id="book_menu_action" action="book_model_action"/>
+            <menuitem id="book_item_menu_action" action="book_item_model_action"/>
+            <menuitem id="book_item_reservation_menu_action" action="book_item_reservation_model_action"/>
+        </menuitem>
+
+        <menuitem id="member_menu" name="Members">
+            <menuitem id="member_menu_action" action="member_model_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>

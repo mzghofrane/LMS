@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<odoo>
+<!-- Menu > Action > View -->
+
+<!-- Action -->
+<record id="library_model_action" model="ir.actions.act_window">
+    <field name="name">Libraries</field>
+    <field name="res_model">library</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<!-- List tree -->
+<record id="library_view_tree" model="ir.ui.view">
+    <field name="name">library.tree</field>
+    <field name="model">library</field>
+    <field name="arch" type="xml">
+        <tree string="Libraries">
+            <field name="name"/>
+            <field name="address"/>
+            <field name="library_type"/>
+            <field name="phone_number"/>
+            <field name="email"/>
+        </tree>
+    </field>
+</record>
+
+<!-- form -->
+<record id="library_view_form" model="ir.ui.view">
+    <field name="name">library.form</field>
+    <field name="model">library</field>
+    <field name="arch" type="xml">
+        <form string="New Library">
+            <sheet>
+                <group>
+                    <group>
+                        <separator string="User(s)"/>
+                        <field name="user"/>
+                    </group>
+                    <group>
+                        <separator string="General"/>
+                        <field name="name"/>
+                        <field name="library_type"/>
+                    </group>
+                    <group>
+                        <separator string="Contact Information"/>
+                        <field name="phone_number"/>
+                        <field name="email"/>
+                    </group>
+                    <group>
+                        <separator string="Location"/>
+                        <field name="address"/>
+                    </group>
+                    <group>
+                        <separator string="Activity Information"/>
+                        <field name="active"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Borrowing Settings">
+                        <field name="borrowing_settings">
+                            <tree string="Borrowing Settings" editable="bottom">
+                                <field name="duration"/>
+                                <field name="duration_type"/>
+                            </tree> 
+                        </field>
+                    </page>
+                    <page string="Fine Settings">
+                        <field name="fine_settings">
+                            <tree string="Fine Settings" editable="bottom">
+                                <field name="amount"/>
+                                <field name="duration_type"/>
+                            </tree> 
+                        </field>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>
+    </field>
+</record>
+</odoo>

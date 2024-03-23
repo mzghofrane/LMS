@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<odoo>
+<!-- Menu > Action > View -->
+
+<!-- Action -->
+<record id="book_item_reservation_model_action" model="ir.actions.act_window">
+    <field name="name">Reservations</field>
+    <field name="res_model">book.item.reservation</field>
+    <field name="view_mode">tree,form</field>
+</record>
+
+<!-- List tree -->
+<record id="book_item_reservation_view_tree" model="ir.ui.view">
+    <field name="name">book_item_reservation.tree</field>
+    <field name="model">book.item.reservation</field>
+    <field name="arch" type="xml">
+        <tree string="Book Reservations">
+            <field name="book_item"/>
+            <field name="member"/>
+            <field name="reserved_on"/>
+            <field name="status"/>
+            <field name="library"/>
+        </tree>
+    </field>
+</record>
+
+<!-- form -->
+<record id="book_item_reservation_view_form" model="ir.ui.view">
+    <field name="name">book_item_reservation.form</field>
+    <field name="model">book.item.reservation</field>
+    <field name="arch" type="xml">
+        <form string="New Book Reservation">
+            <header>
+                <button name="action_cancel_reservation" type="object" string="Cancel"/>
+                <field name="status" widget="statusbar"/>
+            </header>
+            <sheet>
+                <group>
+                    <group>
+                        <separator string="General"/>
+                        <field name="book_item"/>
+                        <field name="member"/>
+                    </group>
+                    <group>
+                        <separator string="Reservation"/>
+                        <field name="reserved_on"/>
+                    </group>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+</odoo>

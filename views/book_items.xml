@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<odoo>
+<!-- Menu > Action > View -->
+
+<!-- Action -->
+<record id="book_item_model_action" model="ir.actions.act_window">
+    <field name="name">Book Items</field>
+    <field name="res_model">book.item</field>
+    <field name="view_mode">tree,form,kanban</field>
+</record>
+
+<!-- List tree -->
+<record id="book_item_view_tree" model="ir.ui.view">
+    <field name="name">book_item.tree</field>
+    <field name="model">book.item</field>
+    <field name="arch" type="xml">
+        <tree string="Book Items">
+            <field name="barcode"/>
+            <field name="book"/>
+            <field name="status"/>
+            <field name="library"/>
+        </tree>
+    </field>
+</record>
+
+<!-- form -->
+<record id="book_item_view_form" model="ir.ui.view">
+    <field name="name">book_item.form</field>
+    <field name="model">book.item</field>
+    <field name="arch" type="xml">
+        <form string="New Book Item">
+            <header>
+                <button name="action_borrow_book" type="object" string="Borrow"/>
+                <button name="action_return_book" type="object" string="Return"/>
+                <button name="action_reserve_book" type="object" string="Reserve"/>
+                <button name="action_report_lost_book" type="object" string="Report Lost"/>
+                <field name="status" widget="statusbar"/>
+            </header>
+            <sheet>
+                <group>
+                    <group>
+                        <separator string="General"/>
+                        <field name="book"/>
+                    </group>
+                    <group>
+                        <separator string="Borrower Information"/>
+                        <field name="borrowed_by"/>
+                    </group>
+                    <group>
+                        <separator string="Reservation Information"/>
+                        <field name="reserved_by"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Issued To">
+                        <field name="issued_to">
+                            <tree string="Issued To" editable="bottom">
+                                <field name="member"/>
+                                <field name="borrowed_date"/>
+                                <field name="due_date"/>
+                                <field name="returned_date"/>
+                            </tree> 
+                        </field>
+                    </page>
+                    <page string="Fines">
+                        <field name="fines">
+                            <tree string="Issued To" editable="bottom">
+                                <field name="member"/>
+                                <field name="due_date"/>
+                                <field name="returned_date"/>
+                                <field name="amount"/>
+                            </tree> 
+                        </field>
+                    </page>
+                    <page string="Reservations">
+                        <field name="reservations">
+                            <tree string="Reservations" editable="bottom">
+                                <field name="member"/>
+                                <field name="reserved_on"/>
+                                <field name="status"/>
+                            </tree> 
+                        </field>
+                    </page>
+                    <page string="More Information">
+                        <field name="library"/>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>
+    </field>
+</record>
+</odoo>
