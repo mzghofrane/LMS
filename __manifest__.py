@@ -2,7 +2,7 @@
 
 {
     "name": "Smart Library",
-    "author": "Ghofran Mzoughi && Joumen Ben Said",
+    "author": "Ghofran Mzoughi && Joumene Ben Said",
     'category': 'Library Management',
     "version": "17.0.0.2.0",
     "depends": ["base"],
@@ -26,6 +26,15 @@
         "views/reservations.xml",
         "views/menu.xml",
     ],
+    'assets': {
+        'web.assets_backend': [
+            'smart-library-lms/static/src/css/libraries.css',
+            'smart-library-lms/static/src/css/books.css',
+            'smart-library-lms/static/src/css/book_items.css',
+            'smart-library-lms/static/src/css/reservations.css',
+            'smart-library-lms/static/src/css/members.css',
+        ]
+    },
     'application': True,
 }
 

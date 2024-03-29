@@ -14,7 +14,7 @@
     <field name="name">library.tree</field>
     <field name="model">library</field>
     <field name="arch" type="xml">
-        <tree string="Libraries">
+        <tree string="Libraries" class="header_custom">
             <field name="name"/>
             <field name="address"/>
             <field name="library_type"/>

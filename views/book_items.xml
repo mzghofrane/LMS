@@ -14,7 +14,7 @@
     <field name="name">book_item.tree</field>
     <field name="model">book.item</field>
     <field name="arch" type="xml">
-        <tree string="Book Items">
+        <tree string="Book Items" class="header_custom">
             <field name="barcode"/>
             <field name="book"/>
             <field name="status"/>

@@ -14,7 +14,7 @@
     <field name="name">member.tree</field>
     <field name="model">member</field>
     <field name="arch" type="xml">
-        <tree string="Members">
+        <tree string="Members" class="header_custom">
             <field name="name"/>
             <field name="phone_number"/>
             <field name="email"/>

@@ -1,0 +1,810 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* smart-library-lms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-03-27 20:57+0000\n"
+"PO-Revision-Date: 2024-03-27 20:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_book
+msgid "A book in a library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__author
+msgid ""
+"A foreign key to an author who wrote the book. The author is stored in a "
+"different model."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__description
+msgid "A general description of the book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_member
+msgid "A member of a library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_library
+msgid "A physical library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_book_item_reservation
+msgid "A reservation made on a book item."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_book_item
+msgid "A single book item in a library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book_item__barcode
+msgid "A unique bar code to identify a unique book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__library__library_type__academic
+msgid "ACADEMIC"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_abstract_base__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__active
+#: model:ir.model.fields,field_description:smart-library-lms.field_ownerless_abstract_base__active
+msgid "Active"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "Activity Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__amount
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__amount
+msgid "Amount"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_author
+msgid "An author of a book in a library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__audio_book
+msgid "Audio Book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__author
+msgid "Author"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item__status__available
+msgid "Available"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "Bio Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__book
+msgid "Book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+msgid "Book Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__book_item
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__book_item
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__book_item
+msgid "Book Item"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.actions.act_window,name:smart-library-lms.book_item_model_action
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__book_items
+#: model:ir.ui.menu,name:smart-library-lms.book_item_menu_action
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_tree
+msgid "Book Items"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_reservation_view_tree
+msgid "Book Reservations"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_issued_book_item
+msgid "Book item(s) issued to a library member"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.actions.act_window,name:smart-library-lms.book_model_action
+#: model:ir.ui.menu,name:smart-library-lms.book_menu
+#: model:ir.ui.menu,name:smart-library-lms.book_menu_action
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_tree
+msgid "Books"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Borrow"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item__status__borrowed
+msgid "Borrowed"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__borrowed_date
+msgid "Borrowed Date"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Borrower Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__borrowing_settings
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "Borrowing Settings"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_borrowing_settings__duration_type
+#: model:ir.model.fields,help:smart-library-lms.field_fine_settings__duration_type
+msgid "Calender bands for duration."
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_reservation_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item_reservation__status__cancelled
+msgid "Cancelled"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item_reservation__status__completed
+msgid "Completed"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "Contact Details"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "Contact Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__create_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__create_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_fine_settings
+msgid "Custom metadata about a library's fine details."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_borrowing_settings
+msgid "Custom metadata about a library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book_item_reservation__reserved_on
+msgid "Date when a reservation is made."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__borrowing_settings__duration_type__days
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__fine_settings__duration_type__days
+msgid "Days"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__description
+msgid "Description"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__display_name
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__due_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__due_date
+msgid "Due Date"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__duration
+msgid "Duration"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__duration_type
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__duration_type
+msgid "Duration Type"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__ebook
+msgid "Ebook"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__email
+msgid "Email"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__fine_settings
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "Fine Settings"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_fine
+msgid "Fine applied to a particular late book item."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__fines
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Fines"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__format
+msgid "Format"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_reservation_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "General"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__hard_cover
+msgid "Hard Cover"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book_item__issued_to
+msgid "Historical of members who have been issued the book."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__id
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__id
+msgid "ID"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__library__library_type__industry
+msgid "INDUSTRY"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__issued_book_items
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "Issued Book Items"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__issued_to
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Issued To"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "Items"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__journal
+msgid "Journal"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__language
+msgid "Language"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__write_uid
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__write_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.actions.act_window,name:smart-library-lms.library_model_action
+#: model:ir.ui.menu,name:smart-library-lms.library_menu
+#: model:ir.ui.menu,name:smart-library-lms.library_menu_action
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_tree
+msgid "Libraries"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_abstract_base__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_borrowing_settings__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine_settings__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__library
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__library
+msgid "Library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__address
+msgid "Library Address"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__email
+msgid "Library Email"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__name
+msgid "Library Name"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__phone_number
+msgid "Library Phone Number"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "Location"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item__status__lost
+msgid "Lost"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__magazine
+msgid "Magazine"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__borrowed_by
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__reserved_by
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__member
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__member
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__member
+msgid "Member"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.actions.act_window,name:smart-library-lms.member_model_action
+#: model:ir.ui.menu,name:smart-library-lms.member_menu
+#: model:ir.ui.menu,name:smart-library-lms.member_menu_action
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_tree
+msgid "Members"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__borrowing_settings__duration_type__months
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__fine_settings__duration_type__months
+msgid "Months"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+msgid "More Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_author__name
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__name
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__name
+msgid "Name"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_author__name
+msgid "Name of an author."
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+msgid "New Book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "New Book Item"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_reservation_view_form
+msgid "New Book Reservation"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "New Library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.member_view_form
+msgid "New Member"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__newspaper
+msgid "Newspaper"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__library__library_type__public
+msgid "PUBLIC"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__pages
+msgid "Pages"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book__format__paper_back
+msgid "Paper Back"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__phone_number
+msgid "Phone Number"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_library__address
+msgid "Physical address of the library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_view_form
+msgid "Print Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__publisher
+msgid "Publisher"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__registered_on
+msgid "Registered On"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_member__removed_on
+msgid "Removed On"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Report Lost"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_reservation_view_form
+msgid "Reservation"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Reservation Information"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.actions.act_window,name:smart-library-lms.book_item_reservation_model_action
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__reservations
+#: model:ir.ui.menu,name:smart-library-lms.book_item_reservation_menu_action
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Reservations"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Reserve"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item__status__reserved
+msgid "Reserved"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__reserved_on
+msgid "Reserved On"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.book_item_view_form
+msgid "Return"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_fine__returned_date
+#: model:ir.model.fields,field_description:smart-library-lms.field_issued_book_item__returned_date
+msgid "Returned Date"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__library__library_type__school
+msgid "SCHOOL"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model,name:smart-library-lms.model_abstract_base
+#: model:ir.model,name:smart-library-lms.model_ownerless_abstract_base
+msgid "Shared model by all business objects."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.ui.menu,name:smart-library-lms.menu_root
+msgid "Smart Library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item__status
+#: model:ir.model.fields,field_description:smart-library-lms.field_book_item_reservation__status
+msgid "Status"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book_item_reservation__status
+msgid "Status of a book item reservation."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_book__subject
+msgid "Subject"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_fine__returned_date
+#: model:ir.model.fields,help:smart-library-lms.field_issued_book_item__returned_date
+msgid "The actual return date of the issued book item."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_issued_book_item__borrowed_date
+msgid "The borrowed date of the issued book item."
+msgstr ""
+
+#. module: smart-library-lms
+#. odoo-python
+#: code:addons/models/base.py:0 code:addons/smart-library-lms/models/base.py:0
+#, python-format
+msgid ""
+"The current user in session is not assigned to a library or assigned to an "
+"inactive library"
+msgstr ""
+
+#. module: smart-library-lms
+#. odoo-python
+#: code:addons/models/base.py:0 code:addons/smart-library-lms/models/base.py:0
+#, python-format
+msgid "The current user is assigned to more than one library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_borrowing_settings__duration
+msgid "The default duration a book can be borrowed."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__language
+msgid "The language the book is written in"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_library__name
+msgid "The name of the library."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__pages
+msgid "The number of readable pages a book has."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_library__email
+msgid "The primary email address of the library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_member__email
+msgid "The primary email address of the member"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_library__phone_number
+msgid "The primary phone number of the library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_member__phone_number
+msgid "The primary phone number of the member"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__publisher
+msgid "The publisher of the book"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_fine__due_date
+#: model:ir.model.fields,help:smart-library-lms.field_issued_book_item__due_date
+msgid "The return date of the issued book item."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__subject
+msgid "The subject covered by the book."
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_book__name
+msgid "The title/name of the book to be added"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,help:smart-library-lms.field_library__library_type
+msgid "The type of a library"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__library_type
+msgid "Type"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields,field_description:smart-library-lms.field_library__user
+msgid "User"
+msgstr ""
+
+#. module: smart-library-lms
+#: model_terms:ir.ui.view,arch_db:smart-library-lms.library_view_form
+msgid "User(s)"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__book_item_reservation__status__waiting
+msgid "Waiting"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__borrowing_settings__duration_type__weeks
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__fine_settings__duration_type__weeks
+msgid "Weeks"
+msgstr ""
+
+#. module: smart-library-lms
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__borrowing_settings__duration_type__years
+#: model:ir.model.fields.selection,name:smart-library-lms.selection__fine_settings__duration_type__years
+msgid "Years"
+msgstr ""

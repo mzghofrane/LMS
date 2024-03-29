@@ -14,7 +14,7 @@
     <field name="name">book.tree</field>
     <field name="model">book</field>
     <field name="arch" type="xml">
-        <tree string="Books">
+        <tree string="Books" class="header_custom">
             <field name="name"/>
             <field name="subject"/>
             <field name="publisher"/>

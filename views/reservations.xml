@@ -14,7 +14,7 @@
     <field name="name">book_item_reservation.tree</field>
     <field name="model">book.item.reservation</field>
     <field name="arch" type="xml">
-        <tree string="Book Reservations">
+        <tree string="Book Reservations" class="header_custom">
             <field name="book_item"/>
             <field name="member"/>
             <field name="reserved_on"/>
